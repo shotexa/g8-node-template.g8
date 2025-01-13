@@ -1,1 +1,1 @@
-console.log("hello nodejs project");
+console.log("hello $name$");

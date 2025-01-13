@@ -1,10 +1,10 @@
 {
-  "name": "nodejs-project-template",
+  "name": "$name;format="normalize"$",
   "version": "0.0.0",
-  "description": "Template for a nodejs project",
+  "description": "$description$",
   "type": "commonjs",
   "engines": {
-    "node": ">= 22 <22.13.1"
+    "node": ">= $min_node_version$ <$node_version$"
   },
   "devDependencies": {
     "@types/jest": "~29.5",
@@ -35,7 +35,7 @@
     "prettier": "npx prettier --config .prettierrc --write .",
     "test:watch": "jest --watch"
   },
-  "author": "Shota Jolbordi <shota.jolbordi@protonmail.com>",
+  "author": "$author;format="capitalize"$ <$email;format="lower"$",
   "license": "Apache-2.0",
   "dependencies": {
     "dotenv": "^16.4.7",
