@@ -4,7 +4,7 @@
   "description": "$description$",
   "type": "commonjs",
   "engines": {
-    "node": ">= $min_node_version$ <$node_version$"
+    "node": ">= $min_node_version$ <=$node_version$"
   },
   "devDependencies": {
     "@types/jest": "~29.5",
